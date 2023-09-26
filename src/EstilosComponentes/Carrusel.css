@@ -1,0 +1,57 @@
+
+
+.slick-slider {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .slick-slide {
+    transition: transform 0.5s ease;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #000;
+  }
+  
+ 
+  
+ .carousel{
+    display: flex;
+    max-width: 100%;
+
+    
+    max-height: 550px;
+    position: static;
+   
+    
+    
+ }
+ .carousel img{
+    max-width: 100%;
+    max-height: 100%;
+    
+ }
+
+ .carousel button{
+    
+    position: absolute;
+    bottom: 4em;
+    right: 4em;
+    background-color: #8f9e0b;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    border-radius: 20px;
+
+ }
+
+ .textoCarrusel{
+  text-align: center;
+  
+ }

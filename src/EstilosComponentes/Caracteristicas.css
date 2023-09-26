@@ -1,0 +1,20 @@
+/* DivsContainer.css */
+
+.divs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .division {
+    text-align: center;
+    margin: 10px;
+  }
+  .division svg{
+    font-size: 50px;
+    color: cornflowerblue;
+  }
+  .logo {
+    max-width: 100px;
+  }
+  
