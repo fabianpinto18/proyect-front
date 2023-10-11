@@ -1,0 +1,119 @@
+/* Estilos para el contenedor del carrito */
+.carrito-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Estilos para la lista de productos disponibles */
+.productos-disponibles {
+  margin-bottom: 20px;
+}
+
+/* Estilos para la lista de productos en el carrito */
+.productos-en-carrito {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+/* Estilos para un elemento de producto */
+.producto-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el botón */
+.boton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.boton:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el total del carrito */
+.total {
+  text-align: right;
+  margin-top: 20px;
+}
+
+/* Estilos para el título */
+.titulo {
+  text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+    display: flex;
+    
+  }
+  
+  .liCarrito {
+    margin: 10px;
+    flex-basis: calc(24% - 20px);
+    font-size: 1rem;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+   
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+.contenedorProductos{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 80%;
+}  
+
+nav {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos hijos */
+    justify-content: flex-start; /* Alinea los elementos hacia la izquierda */
+    height: 70px; /* Ajusta la altura según tus necesidades */
+    background-color: #007bff;
+  }
+  .centro {
+    margin: 0 auto; /* Centra el div del centro horizontalmente */
+    /* Estilos adicionales para el div del centro si es necesario */
+  }
+  .icono-carrito {
+    width: 20px; /* Ancho de la imagen del icono */
+    height: 20px; /* Altura de la imagen del icono */
+    margin-left: 10px; /* Espacio a la izquierda del icono */
+  }
+  

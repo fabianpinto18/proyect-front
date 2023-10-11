@@ -52,10 +52,12 @@ svg{
 .loginA{
   font-size: x-large;
   margin-left: 30px;
+  display: flex;
 }
 .carritoA{
   font-size: x-large;
-  margin-right: 30px;
+  margin-right: 10px;
+  display: flex;
 }
 a{
   text-decoration: none;
@@ -71,4 +73,21 @@ a{
   font-size: 20px;
 } 
 .estilosliNav:hover {background-color: #8686869f; color: white;
+}
+.carrito-contador {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.carrito-contador i {
+  margin-right: 5px; /* Espacio entre el icono y el número */
+  color: #333; /* Cambia el color del icono según tu preferencia */
+}
+
+.carrito-contador span {
+  background-color: #1976d2; /* Fondo del número */
+  color: white; /* Color del número */
+  padding: 4px 8px; /* Espaciado interior del número */
+  border-radius: 50%; /* Borde redondeado para un aspecto de botón */
 }

@@ -9,6 +9,7 @@
 }
 
 .shopping-card {
+  display: flex;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 20px;
@@ -30,6 +31,9 @@
     padding: 14px 28px; 
     cursor: pointer; 
     border-radius: 5px; 
+  }
+  .product-info{
+    margin-left: 10px;
   }
 
   .success {background-color: white; border: 2px solid #aed3c5;} 
