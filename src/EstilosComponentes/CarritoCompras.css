@@ -116,4 +116,7 @@ nav {
     height: 20px; /* Altura de la imagen del icono */
     margin-left: 10px; /* Espacio a la izquierda del icono */
   }
+  .cardsOrden{
+    display: contents;
+  }
   

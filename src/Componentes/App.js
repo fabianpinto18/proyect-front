@@ -10,7 +10,6 @@ import "../EstilosComponentes/App.css";
 import Header from "./Header";
 import UserSupportForm from "./UserSupportForm";
 import Login from "./Login";
-import CRUD from "./CRUD";
 import CarritoCompras from "./CarritoCompras";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -85,6 +84,7 @@ function App() {
             <CarritoCompras
               carrito={carrito}
               eliminarProducto={eliminarProducto}
+              
               
             />
           }

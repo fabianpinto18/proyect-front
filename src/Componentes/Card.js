@@ -34,7 +34,7 @@ function Card({ productName, price, imageUrl, descripcion, agregarProducto }) {
 
   return (
     <>
-      <div className="">
+      <div className="cardsOrden">
       {data.map((element)=>(
         <div className="shopping-card-container" >
             <div className="shopping-card">
